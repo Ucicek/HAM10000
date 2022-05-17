@@ -1,0 +1,76 @@
+Epoch 1/50
+2022-05-13 06:05:49.255194: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-05-13 06:05:50.517374: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8005
+1090/1090 [==============================] - 12s 4ms/step - loss: 1.3651 - accuracy: 0.5104 - val_loss: 0.9392 - val_accuracy: 0.6619
+Epoch 2/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.7620 - accuracy: 0.7155 - val_loss: 0.5763 - val_accuracy: 0.7892
+Epoch 3/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.4392 - accuracy: 0.8392 - val_loss: 0.4054 - val_accuracy: 0.8372
+Epoch 4/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.3203 - accuracy: 0.8825 - val_loss: 0.2659 - val_accuracy: 0.9064
+Epoch 5/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.2661 - accuracy: 0.9033 - val_loss: 0.2619 - val_accuracy: 0.9072
+Epoch 6/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.2151 - accuracy: 0.9221 - val_loss: 0.2224 - val_accuracy: 0.9208
+Epoch 7/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.2068 - accuracy: 0.9270 - val_loss: 0.2522 - val_accuracy: 0.9132
+Epoch 8/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.1671 - accuracy: 0.9420 - val_loss: 0.1639 - val_accuracy: 0.9401
+Epoch 9/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.1556 - accuracy: 0.9445 - val_loss: 0.1770 - val_accuracy: 0.9379
+Epoch 10/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.1464 - accuracy: 0.9486 - val_loss: 0.1836 - val_accuracy: 0.9384
+Epoch 11/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.1273 - accuracy: 0.9574 - val_loss: 0.1583 - val_accuracy: 0.9531
+Epoch 12/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.1195 - accuracy: 0.9587 - val_loss: 0.1800 - val_accuracy: 0.9412
+Epoch 13/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.1036 - accuracy: 0.9655 - val_loss: 0.1476 - val_accuracy: 0.9581
+Epoch 14/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.0938 - accuracy: 0.9681 - val_loss: 0.1617 - val_accuracy: 0.9564
+Epoch 15/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.0968 - accuracy: 0.9678 - val_loss: 0.1249 - val_accuracy: 0.9647
+Epoch 16/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.0929 - accuracy: 0.9690 - val_loss: 0.1968 - val_accuracy: 0.9450
+Epoch 17/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.0738 - accuracy: 0.9752 - val_loss: 0.1287 - val_accuracy: 0.9660
+Epoch 18/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.0896 - accuracy: 0.9712 - val_loss: 0.1158 - val_accuracy: 0.9632
+Epoch 19/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.0687 - accuracy: 0.9777 - val_loss: 0.1420 - val_accuracy: 0.9630
+Epoch 20/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.0819 - accuracy: 0.9731 - val_loss: 0.1686 - val_accuracy: 0.9485
+Epoch 21/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 0.0628 - accuracy: 0.9793 - val_loss: 0.1837 - val_accuracy: 0.9610
+
+Epoch 00021: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 22/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.0077 - accuracy: 0.9979 - val_loss: 0.0748 - val_accuracy: 0.9852
+Epoch 23/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 0.0022 - accuracy: 0.9997 - val_loss: 0.0765 - val_accuracy: 0.9849
+Epoch 24/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 9.2169e-04 - accuracy: 0.9999 - val_loss: 0.0838 - val_accuracy: 0.9853
+Epoch 25/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 4.1780e-04 - accuracy: 1.0000 - val_loss: 0.0970 - val_accuracy: 0.9846
+
+Epoch 00025: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 26/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 2.3930e-04 - accuracy: 1.0000 - val_loss: 0.1000 - val_accuracy: 0.9847
+Epoch 27/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 2.1470e-04 - accuracy: 1.0000 - val_loss: 0.1011 - val_accuracy: 0.9845
+Epoch 28/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 1.8702e-04 - accuracy: 1.0000 - val_loss: 0.1036 - val_accuracy: 0.9845
+
+Epoch 00028: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 29/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 1.6268e-04 - accuracy: 1.0000 - val_loss: 0.1037 - val_accuracy: 0.9846
+Epoch 30/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 1.5786e-04 - accuracy: 1.0000 - val_loss: 0.1042 - val_accuracy: 0.9846
+Epoch 31/50
+1090/1090 [==============================] - 4s 4ms/step - loss: 1.5115e-04 - accuracy: 1.0000 - val_loss: 0.1045 - val_accuracy: 0.9846
+
+Epoch 00031: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 32/50
+1090/1090 [==============================] - 5s 4ms/step - loss: 1.4528e-04 - accuracy: 1.0000 - val_loss: 0.1046 - val_accuracy: 0.9846
+Epoch 00032: early stopping
+<keras.callbacks.History at 0x7fbc8334dd50>
